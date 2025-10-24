@@ -1,0 +1,22 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# Arquivos de log
+*.log
+php_error.log
+
+# Arquivos de backup
+*.bak
+*.backup
+*.old
