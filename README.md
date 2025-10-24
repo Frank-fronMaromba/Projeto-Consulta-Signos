@@ -1,48 +1,69 @@
-# Consulta de Signos
+Consulta de Signos ✨
 
-Um aplicativo web para consulta de signos do zodíaco baseado na data de nascimento do usuário.
+Aplicação web que identifica o signo do usuário com base na data de nascimento e exibe uma descrição personalizada.
 
-## Funcionalidades
+Este projeto foi desenvolvido como atividade prática da disciplina de Programação Web da faculdade, com o objetivo de aplicar conceitos de front-end, back-end e integração com arquivos XML.
 
-- Consulta de signo baseada na data de nascimento
-- Interface amigável e responsiva
-- Descrições personalizadas para cada signo
-- Design moderno com efeitos visuais
+🔮 Funcionalidades
 
-## Tecnologias Utilizadas
+Consulta automática do signo zodiacal pela data de nascimento
 
-- PHP
-- XML
-- HTML5
-- CSS3
-- Bootstrap 5
-- JavaScript
+Interface visual moderna e responsiva (Bootstrap)
 
-## Como Executar
+Descrições personalizadas para cada signo
 
-1. Clone este repositório
-2. Coloque os arquivos em seu servidor web (ex: xampp/htdocs/)
-3. Acesse através do navegador: `http://localhost/Projeto-Consulta-Signos`
+Layout limpo e intuitivo
 
-## Estrutura do Projeto
+Leitura de dados através de XML
 
-```
-assets/
-  ├── css/
-  │   └── style.css
-  ├── imgs/
-  └── js/
-layouts/
-  ├── header.php
-  ├── index.php
-  ├── show_zodiac_sign.php
-  └── signos.xml
-```
+🛠️ Tecnologias Utilizadas
+Tecnologia	Uso
+PHP	Processamento da lógica e manipulação do XML
+XML	Armazenamento das informações dos signos
+HTML5	Estrutura das páginas
+CSS3	Estilização personalizada
+Bootstrap 5	Responsividade e componentes visuais
+JavaScript	Melhorias de interação (quando necessário)
+📂 Estrutura do Projeto
+Project/
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── imgs/
+│   └── js/
+│
+├── layouts/
+│   └── header.php
+│
+├── index.php
+├── show_zodiac_sign.php
+└── signos.xml
 
-## Autor
+▶️ Como Executar
 
-[Frank Rijkaard]
+Clone este repositório ou faça download dos arquivos:
 
-## Licença
+git clone https://github.com/seu-usuario/Projeto-Consulta-Signos
 
-Este projeto está sob a licença MIT.
+
+Coloque os arquivos dentro do diretório do servidor local (exemplo):
+
+xampp/htdocs/Projeto-Consulta-Signos
+
+
+Inicie o Apache no XAMPP
+
+Acesse no navegador:
+
+http://localhost/Projeto-Consulta-Signos
+
+👤 Autor
+
+Frank Rijkaard
+Desenvolvedor em formação & entusiasta de tecnologia.
+
+📜 Licença
+
+Este projeto está licenciado sob a licença MIT.
+Você é livre para usar, modificar e distribuir.
