@@ -41,7 +41,7 @@ layouts/
 
 ## Autor
 
-[Seu Nome]
+[Frank Rijkaard]
 
 ## Licença
 
